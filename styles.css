@@ -35,3 +35,43 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+/* Container */
+.container {
+  width: 100%;
+  margin: auto;
+  padding: 2%;
+  position: relative;
+}
+
+/* Navigation */
+.outside-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nav li {
+  padding-right: 1rem;
+}
+
+/* Center */
+.center {
+  position: absolute;
+
+  transform: translateY(50%);
+  transform: translateX(50%);
+}
+
+
+/* Footer */
+.footer {
+  position: fixed;
+  bottom: 0;
+}
